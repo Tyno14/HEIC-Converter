@@ -1,0 +1,9 @@
+# Fichiers à ignorer
+__pycache__/
+*.pyc
+.venv/
+*.jpg
+*.png
+*.webp
+*.log
+*.DS_Store
