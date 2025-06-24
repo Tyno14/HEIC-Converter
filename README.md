@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![HEIC Converter](https://img.shields.io/badge/Convertisseur-HEIC→JPG%2FPNG%2FWEBP-brightgreen)
 ![Licence MIT](https://img.shields.io/badge/Licence-MIT-yellow)
+![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
 
 ---
 
