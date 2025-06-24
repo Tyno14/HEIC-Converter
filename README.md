@@ -79,7 +79,7 @@ Ce projet est sous licence MIT – voir le fichier [LICENSE](LICENSE) pour plus 
 - [`pillow-heif`](https://pypi.org/project/pillow-heif/)
 - [`tkinterdnd2`](https://pypi.org/project/tkinterdnd2/)
 
-### Installation
+### Install
 
 #### 📦 Quick download
 
