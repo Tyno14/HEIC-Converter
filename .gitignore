@@ -1,9 +1,23 @@
-# Fichiers à ignorer
 __pycache__/
 *.pyc
 .venv/
+*.log
+*.DS_Store
+
+# Fichiers convertis
 *.jpg
 *.png
 *.webp
-*.log
-*.DS_Store
+
+# Déploiement
+build/
+dist/
+*.spec
+
+# Git ignore lui-même (évite d’être versionné par erreur)
+.gitignore
+
+main.spec
+HEIC-converter-1.0.deb
+dist/
+HEIC-converter_deb/
