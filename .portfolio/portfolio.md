@@ -295,6 +295,72 @@ github_url: "https://github.com/Tyno14/HEIC-Converter"
 
 </div>
 
+## 📚 Ressources & Documentation
+
+<div class="documentation-grid grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+  
+  <div class="doc-card dark:bg-gradient-to-br dark:from-slate-900/50 dark:to-slate-800/50 bg-gradient-to-br from-slate-50 to-slate-100 border dark:border-white/10 border-slate-300 rounded-2xl p-6 hover:scale-[1.02] transition-all duration-300 cursor-pointer" data-doc-type="details">
+    <div class="flex items-center gap-3 mb-4">
+      <span class="text-3xl">📖</span>
+      <h3 class="text-lg font-bold dark:text-white text-slate-900">Documentation complète</h3>
+    </div>
+    <ul class="space-y-3">
+      <li class="flex items-start gap-2">
+        <span class="text-blue-500">▸</span>
+        <span class="dark:text-white/70 text-slate-600">Analyse du code source Python</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-blue-500">▸</span>
+        <span class="dark:text-white/70 text-slate-600">Logique de l'interface (Tkinter)</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-blue-500">▸</span>
+        <span class="dark:text-white/70 text-slate-600">Processus de conversion (Pillow)</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-blue-500">▸</span>
+        <span class="dark:text-white/70 text-slate-600">Instructions de packaging (.exe/.deb)</span>
+      </li>
+    </ul>
+    <div class="mt-4 text-center">
+      <span class="text-sm dark:text-blue-400 text-blue-600 font-semibold">→ Voir les détails techniques</span>
+    </div>
+  </div>
+
+  <div class="doc-card dark:bg-gradient-to-br dark:from-purple-900/30 dark:to-indigo-900/30 bg-gradient-to-br from-purple-50 to-indigo-50 border dark:border-purple-500/30 border-purple-300 rounded-2xl p-6 hover:scale-[1.02] transition-all duration-300 cursor-pointer" data-doc-type="architecture">
+    <div class="flex items-center gap-3 mb-4">
+      <span class="text-3xl">🗺️</span>
+      <h3 class="text-lg font-bold dark:text-white text-slate-900">Diagramme interactif</h3>
+    </div>
+    <p class="dark:text-white/70 text-slate-600 mb-4">Visualisation complète de l'architecture avec tooltips détaillés pour chaque composant.</p>
+    <div class="flex flex-wrap gap-2 mb-4">
+      <span class="px-3 py-1 dark:bg-blue-500/20 bg-blue-200 dark:text-blue-300 text-blue-700 rounded-full text-xs">Interface (GUI)</span>
+      <span class="px-3 py-1 dark:bg-red-500/20 bg-red-200 dark:text-red-300 text-red-700 rounded-full text-xs">Logique (Backend)</span>
+      <span class="px-3 py-1 dark:bg-purple-500/20 bg-purple-200 dark:text-purple-300 text-purple-700 rounded-full text-xs">Threading</span>
+      <span class="px-3 py-1 dark:bg-green-500/20 bg-green-200 dark:text-green-300 text-green-700 rounded-full text-xs">Packaging</span>
+    </div>
+    <div class="text-center">
+      <span class="text-sm dark:text-purple-400 text-purple-600 font-semibold">→ Voir l'architecture</span>
+    </div>
+  </div>
+
+</div>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function() {
+    const docCards = document.querySelectorAll('[data-doc-type]');
+    docCards.forEach(card => {
+      card.addEventListener('click', function() {
+        const type = this.getAttribute('data-doc-type');
+        const tabButton = document.querySelector(`[data-tab="${type}"]`);
+        if (tabButton) {
+          tabButton.click();
+        }
+      });
+    });
+  });
+</script>
+
 ---
 
 **Archivé** | **Application Bureau** | **Projet Personnel**
