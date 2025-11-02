@@ -45,7 +45,10 @@ diagrams:
 # URLs et liens
 demo_url: ""
 demo_label: ""
+github_repo: "Tyno14/HEIC-Converter"
 github_url: "https://github.com/Tyno14/HEIC-Converter"
+github_stars: 0
+github_language: "Python"
 ---
 
 ## 🎯 Vue d'ensemble
