@@ -38,7 +38,7 @@ architecture:
 
 # Diagrammes d'architecture (optionnel)
 diagrams:
-  - path: "/diagrams/heic-converter-architecture.svg"
+  - path: "/diagrams/diagram.svg"
     title: "Architecture applicative"
     description: "Vue d'ensemble de l'architecture GUI et logique métier"
 
