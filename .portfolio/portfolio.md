@@ -38,7 +38,7 @@ architecture:
 
 # Diagrammes d'architecture (optionnel)
 diagrams:
-  - path: "diagrams/diagram.svg"
+  - path: "diagrams/github/diagram.svg"
     title: "Architecture applicative"
     description: "Vue d'ensemble de l'architecture GUI et logique métier"
 
