@@ -38,7 +38,7 @@ architecture:
 
 # Diagrammes d'architecture (optionnel)
 diagrams:
-  - path: "diagrams/github/diagram.svg"
+  - path: "https://raw.githubusercontent.com/Tyno14/HEIC-Converter/main/.portfolio/diagrams/diagram.svg"
     title: "Architecture applicative"
     description: "Vue d'ensemble de l'architecture GUI et logique métier"
 
